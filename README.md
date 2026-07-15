@@ -65,13 +65,15 @@ The long-term objective is to build an operating system capable of:
 
 ## Project Roadmap
 
-### Phase 0 --- Boot
+### Phase 0 --- Boot `Done`
 
 -   Project setup
 -   Build system
 -   Bootloader
 -   Boot in QEMU
 -   Print `Hello samOS`
+
+Status: Completed. samOS now boots in QEMU and prints `Hello samOS`.
 
 ### Phase 1 --- Console
 
@@ -81,6 +83,8 @@ The long-term objective is to build an operating system capable of:
 -   Cursor
 -   Scrolling
 -   Panic screen
+
+Status: Completed. samOS now has the Phase 1 console features in place.
 
 ### Phase 2 --- Keyboard
 
@@ -191,15 +195,16 @@ samOS/
 
 ## Current Milestone
 
-**Phase 0 --- Boot**
+**Phase 1 --- Console**
 
 Goal:
 
 ``` text
-Hello samOS
+Basic text output and screen control
 ```
 
-Boot samOS in QEMU and print the message above.
+Phase 0 is complete: samOS boots in QEMU and prints `Hello samOS`.
+Phase 1 is complete: the text console has been built.
 
 ------------------------------------------------------------------------
 
